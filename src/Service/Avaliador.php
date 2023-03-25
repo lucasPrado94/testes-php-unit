@@ -5,7 +5,9 @@ namespace Alura\Leilao\Service;
 use Alura\Leilao\Model\Leilao;
 
 class Avaliador {
+
     private $maiorValor;
+
     public function avalia(Leilao $leilao): void 
     {
         $lances = $leilao->getLances();
@@ -14,7 +16,8 @@ class Avaliador {
 
     }
 
-    public function getMaiorValor(): float {
+    public function getMaiorValor(): float 
+    {
         return $this->maiorValor;
     }
 }
