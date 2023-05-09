@@ -68,6 +68,7 @@ class AvaliadorTest extends TestCase
         self::assertEquals(1700, $maiores[2]->getValor());
     }
 
+    /*----------@dataproviders--------------*/
     public function leilaoEmOrdemCrescente()
     {
         $leilao = new Leilao('Fiat 147 0KM');
